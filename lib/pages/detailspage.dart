@@ -91,7 +91,7 @@ class _DetailsPageState extends State<DetailsPage> {
                 child: Hero(
                   tag: 'image' + widget.index.toString(),
                   child: Image.asset(
-                    "assets/images/Pill.png",
+                    "assets/images/Pills.png",
                     fit: BoxFit.cover,
                   ),
                 ),
