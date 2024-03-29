@@ -1,4 +1,10 @@
-import 'package:awesome_notifications/awesome_notifications.dart';
+import 'package:awesome_notifications/awesome_notifications.dart'
+    show
+        AwesomeNotifications,
+        NotificationActionButton,
+        NotificationCalendar,
+        NotificationContent,
+        NotificationLayout;
 import 'package:flutter/material.dart';
 import 'package:medicine/utils/schedule.dart';
 

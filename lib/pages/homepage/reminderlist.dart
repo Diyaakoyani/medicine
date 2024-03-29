@@ -22,7 +22,6 @@ class _ReminderListState extends State<ReminderList> {
   Widget build(BuildContext context) {
     List<Pill>? pills = Provider.of<DataModel>(context, listen: true).datePills;
     return SliverStack(
-      // defaults to false
       insetOnOverlap: true,
       children: <Widget>[
         const SliverPositioned.fill(

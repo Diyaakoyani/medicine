@@ -7,7 +7,7 @@ import '../utils/network.dart';
 
 class DataModel extends ChangeNotifier {
   Map<String, List<Pill>> _pills = {};
-  DateTime _selectedDate = DateTime(2022, 09, 24);
+  DateTime _selectedDate = DateTime(2024, 04, 01);
 
   List<Pill>? get datePills => _pills[datetimeformatter.format(_selectedDate)];
 

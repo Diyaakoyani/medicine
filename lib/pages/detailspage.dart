@@ -89,10 +89,9 @@ class _DetailsPageState extends State<DetailsPage> {
               SizedBox(
                 width: MediaQuery.of(context).size.width * 0.65,
                 child: Hero(
-                  tag: 'image' + widget.index.toString(),
+                  tag: 'image${widget.index}',
                   child: Image.asset(
-                    "assets/images/Pills.png",
-                    fit: BoxFit.cover,
+                    "assets/images/Pill.png",
                   ),
                 ),
               ),
